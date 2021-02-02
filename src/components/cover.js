@@ -1,7 +1,7 @@
 import React from 'react';
 import Scrollchor from "react-scrollchor";
 import Img from "gatsby-image";
-import "./cover.css";
+// import "./cover.css";
 // import resume from "../static/resume";
 
 

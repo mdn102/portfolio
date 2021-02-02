@@ -23,40 +23,40 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-emotion`,
-    // {
-    //   resolve: 'gatsby-plugin-page-progress',
-    //   options: {
-    //     height: 3,
-    //     prependToBody: false,
-    //     excludePaths: ['/contact', '/blog'],
-    //     color: `#d86a7e`,
-    //   }
-    // },
-    // {
-    //   resolve: "gatsby-transformer-remark",
-    //   options: {
-    //     plugins: [
-    //       "gatsby-remark-relative-images",
-    //       `gatsby-remark-lazy-load`,
-    //       `gatsby-remark-copy-linked-files`,
-    //       `gatsby-remark-vscode`,
-    //       `gatsby-remark-responsive-iframe`,
-    //       {
-    //         resolve: 'gatsby-remark-external-links',
-    //         options: {
-    //           target: '_blank',
-    //           rel: 'noreferrer',
-    //         }
-    //       },
-    //       {
-    //         resolve: "gatsby-remark-images",
-    //         options: {
-    //           maxWidth: 900
-    //         }
-    //       }
-    //     ],
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-page-progress',
+      options: {
+        height: 3,
+        prependToBody: false,
+        excludePaths: ['/contact', '/blog'],
+        color: `#d86a7e`,
+      }
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          `gatsby-remark-lazy-load`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-vscode`,
+          `gatsby-remark-responsive-iframe`,
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: 'noreferrer',
+            }
+          },
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 900
+            }
+          }
+        ],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
