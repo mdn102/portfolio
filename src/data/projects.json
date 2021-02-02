@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Blackjack",
+    "type": "front-end",
+    "description": "A popular game were created with simple rule just for fun and relaxing.Built using Javascript, jQuery, HTML5, and CSS3.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603343046/project11_fcjqhs.png",
+    "url": "https://minhd-nguyen.github.io/blackjack-game/"
+  },
+  {
+    "name": "TODO LIST",
+    "type": "front-end",
+    "description": "A user can create a list their task. Built using: ReactJS, MongoDB, Express, HTML, CSS, Javascript, Netlify, and Bootstrap.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1605143228/todoList_vq6siy.png",
+    "url": "https://list-todo-app.netlify.app/"
+  },
+  {
+    "name": "BURGER STACK",
+    "type": "front-end",
+    "description": "The app allows users to create their favorite ingredient lists to make a delicious burger. Built using: ReactJS, HTML, CSS, Javascript, Heroku, and Bootstrap.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603386058/burger-stack2_jsavpv.png",
+    "url": "https://react-burger-stacker.vercel.app/"
+  },
+  {
+    "name": "PET VOTING",
+    "type": "front-end",
+    "description": "This app is all about your lovely pet. Search for common names, vote for your favorite pets. Built with React, Ruby on Rails, ReactStrap, PostgreSQL, AJAX, JavaScript",
+    "img": "JavascriptCalculator.png",
+    "url": "https://pet-votting.netlify.app/"
+  },
+  {
+    "name": "FILM FAVES",
+    "type": "react",
+    "description": "This app is all about your favorite movie. Selecting your favorite films. Built with ReactJS, MongoDB, Express, HTML, CSS, Javascript, Netlify",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603403918/film-faves1_r6iggw.png",
+    "url": "https://film-faves.netlify.app/"
+  },
+  {
+    "name": "Spotify API",
+    "type": "react",
+    "description": "An react app to search the song, artist or album. You also can create your favorite song or event.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603343059/project22_eoznve.png",
+    "url": "https://mindmelody.herokuapp.com/"
+  },
+  {
+    "name": "Stay Inside",
+    "type": "back-end",
+    "description": "A social app help to meet up safety in Covid-19 outbreak. Built using Node JS, HTML, and React.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603343048/project32_r7jggj.png",
+    "url": "https://stay-inside-meet-up.netlify.app/"
+  },
+  {
+    "name": "COVID-19 tracker",
+    "type": "back-end",
+    "description": "Analyze data with D3 to keep track the status of COVID-19 worldwide & US. Built using Javascript, D3, HTML5, CSS, and Bootstrap.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603343058/project51_plbrty.png",
+    "url": "https://covid-tracker-iota-nine.vercel.app/"
+  },
+  {
+    "name": "Terra",
+    "type": "back-end",
+    "description": "An education app for kid to learn how the recycle trash impact to their environment. Built using Javascript, NextJS, HTML, CSS3, and Bootstrap.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603343060/project42_pfqoji.png",
+    "url": "https://terra-ten.vercel.app/"
+  },
+  {
+    "name": "Note sticker",
+    "type": "react",
+    "description": "An react app to create note useful in various purpose. Built using Node.js, Express, and Multer.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1603343058/project62_go7egg.png",
+    "url": "https://note-sticker.herokuapp.com/"
+  },
+  {
+    "name": "GA Motivate",
+    "type": "back-end",
+    "description": "Come as you are and connect with fellow GA immersive alumni to share what keeps you and your job search motivated. Built using MongoDB, Node.js and Express.",
+    "img": "https://res.cloudinary.com/djhte2ard/image/upload/v1612210628/GA_Motivate_ws7k8a.png",
+    "url": "https://ga-motivate.herokuapp.com/login"
+  }
+]

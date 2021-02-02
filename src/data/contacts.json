@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Github",
+    "icon": "github",
+    "type": "social-media",
+    "url": "https://github.com/minhd-nguyen"
+  },
+  {
+    "name": "Twitter",
+    "icon": "twitter",
+    "type": "social-media",
+    "url": "https://twitter.com/minh_dnguyen"
+  },
+  {
+    "name": "Medium",
+    "icon": "medium",
+    "type": "social-media",
+    "url": "https://medium.com/@minhnguyen"
+  },
+  {
+    "name": "Instagram",
+    "icon": "instagram",
+    "type": "social-media",
+    "url": "https://www.instagram.com/nguyendm77"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "linkedin",
+    "type": "social-media",
+    "url": "https://www.linkedin.com/in/minhd-nguyen"
+  },
+  {
+    "name": "Email",
+    "icon": "envelope",
+    "type": "email",
+    "url": "mailto:nguyendm77@gmail.com"
+  }
+]

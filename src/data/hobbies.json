@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Running",
+    "img": "running.png",
+    "external_url": null
+  },
+  {
+    "name": "Hiking",
+    "img": "hiking.png",
+    "external_url": null
+  },
+  {
+    "name": "Meditating",
+    "img": "meditating.png",
+    "external_url": null
+  },
+  {
+    "name": "Reading",
+    "img": "reading.png",
+    "external_url": "https://www.goodreads.com/minh_dnguyen"
+  },
+  {
+    "name": "Traveling",
+    "img": "traveling.png",
+    "external_url":
+      "https://res.cloudinary.com/djhte2ard/image/upload/v1593115900/sample.jpg"
+  },
+  {
+    "name": "Attending Music Festivals",
+    "img": "musicfestival.png",
+    "external_url": null
+  }
+]

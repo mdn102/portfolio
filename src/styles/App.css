@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,600&display=swap');
+
+
+.carousel-indicators li { visibility: hidden; }
+.myBio{
+  
+  background-color: black;
+  color: white;
+  padding: 80px 0 0 0;
+}
+.homePage{
+  display: grid;
+  padding: 0 50px 100px 50px;
+  background-color: black;
+  color: white;
+}
+.carousel:hover {
+  filter: grayscale(0%)
+}
+.resume{
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+#root{
+  background-color: #000000;
+  font-family: 'Montserrat';
+
+}
+
+.line-1{
+  width: 80%;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  /* font-size: 180%; */
+  
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+
+
+.anim-typewriter{
+  animation:  typewriter 4s steps(44) 1s 1 normal both,
+              blinkTextCursor 500ms steps(44) infinite normal;
+            
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 11em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+.h3{
+  padding: 50px 0;
+}
+.pictureBio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.aboutMe{
+  border-bottom: 2px solid white;
+  width: 50%;
+  padding: 50px 0 30px 0;
+}
+.portrait{
+  width: 400px;
+  justify-self: end;
+  justify-items: right;
+}
+.bioCard{
+  align-self: center;
+  font-size: 21px;
+}
+li{
+  font-size: 21px;
+}
+.li {
+  padding: 30px 0 0 20px;
+}
+.contact{
+  justify-self: center;
+}
+.connect{
+  padding: 30px 0;
+  font-size:21px;
+}
+/* .resumeImg{
+  width: 99%;
+  margin: '50px auto';
+  align-self: center;
+  justify-self: center;
+  padding: 50px 0;
+} */
+.projectHome{
+  padding: 0 0 50px 0;
+}
+.footer{
+  padding:0 0 20px 0;
+  text-align: center;
+  
+}
+.links{
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  width: 10%;
+  justify-content: center;
+  margin: 0 auto;
+  justify-items: center;
+  padding: 0 0 50px 0;
+
+}
+#link {
+  text-decoration: none;
+  color: rgba(218, 33, 64, 0.7);
+}
+#link:hover {
+  color: blue;
+}
+.projectButton{
+  color: black;
+}
+.projectButton:hover{
+  color: blue;
+  font-weight: bolder;
+  text-decoration: none;
+}
+@media screen and (max-width: 3000px){
+  .homePage{  
+  padding: 0 500px 100px 500px;
+  }
+}
+@media screen and (max-width: 2000px){
+  .homePage{
+    padding: 0 300px 100px 300px;
+    
+  }
+  .portrait{
+    justify-self: center;
+  }
+
+}
+@media screen and (max-width: 1500px){
+  .homePage{
+    padding: 0 200px 100px 200px;
+  }
+  .portrait{
+    justify-self: right;
+  }
+
+
+}
+@media screen and (max-width: 1320px){
+  .portrait{
+    width: 350px;
+  }
+}
+@media screen and (max-width: 1200px){
+ .homePage{
+    padding: 0 50px 100px 50px;
+  }
+  .pictureBio{
+    grid-template-rows: 1fr .5fr;
+    grid-template-columns: none;
+    align-self: center;
+  }
+  .portrait{
+    grid-row-start: 1;
+    justify-self: center;
+    padding: 50px 0 0 0 ;
+  }
+  .bioCard{
+    align-self: start;
+    padding: 50px 0 0 0 ;
+  }
+
+}
+@media screen and (max-width: 800px){
+
+  .links{
+    width: 20%;
+  }
+}
+@media screen and (max-width: 500px){
+  .pictureBio{
+    grid-template-rows: .5fr 1fr;
+    grid-template-columns: none;
+    align-self: center;
+  }
+  .portrait{
+    width:280px;
+    align-self: start;
+    justify-self: center;
+    padding: 30px 0 0 0;
+    grid-row-start: 1;
+  }
+  .bioCard{
+    padding: 30px 0 0 0 ;
+  }
+  .h3{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .line-1{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .aboutMe{
+    font-size: 30px;
+  }
+
+  .links{
+    width: 30%;
+  } 
+}
